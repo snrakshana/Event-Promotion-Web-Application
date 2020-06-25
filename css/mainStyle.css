@@ -1,0 +1,147 @@
+    body{
+        background: linear-gradient(80deg,transparent,transparent -1%,#0A6659);
+		background-attachment:fixed;
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+    .logo img{
+    width: 25%;
+    display: inline;
+    
+}
+	div.header{
+		height:10%;
+		width:100%;
+	}
+	div.navbar{
+		width:100%;
+		background-color:#002222;
+		text-align:center;
+		opacity:0.9;
+	}
+	.footer{
+        height: 150px;
+		width:100%;
+		bottom:0;
+        margin-top: 650px;
+        margin-left: 0;
+		background-color:black;
+		text-align:center;
+        color: aliceblue;
+	}
+	div.body{
+		margin-left:5%;
+		margin-right:5%;
+		text-align:center;
+        background: linear-gradient(181deg,transparent,transparent -1%,#ffffff); 
+	}
+	div.header p{
+		display:inline;
+		float:right;
+		font-size:20px;
+		color:#000000;
+		font-weight:bold;
+		font-family:Arial;
+	}
+	div.header button{
+		font-size:16px;
+		background-color:#ffffff;
+		padding:7px;
+		float:right;
+		margin:10px;
+		border:none;
+		border-radius:5px;
+		font-weight:bold;
+		color:#000000;
+	}
+	div.header button:hover{
+		font-size:17px;
+		background-color:#000000;
+		color:#ffffff;
+		padding:7px;
+		float:right;
+		margin:10px;
+		border:none;
+		border-radius:5px;
+		font-weight:bold;
+		font-family:Arial;
+	}
+	div.header h1{
+		font-size:50px;
+		color:#ffefe6;
+		display:inline;
+		font-family:Times New Roman;
+		font-style:italic;
+	}
+	div.navbar ul{
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		overflow:hidden;
+	}
+	div.navbar li{
+		display:inline-block;
+		float:none;
+		font-weight:bold;
+		background-color:#001818;
+	}
+	div.navbar a:link,a:visited{
+		display:block;
+		text-decoration:none;
+		font-size:20px;
+		color:#ffffff;
+		margin:0;
+		padding:15px;
+		width:150px;
+	}
+	div.navbar li a:hover,a:active{
+		text-decoration:none;
+		color:#000000;
+		margin:0;
+		background-color:#ffffff;
+	}
+/********************************************************/
+.footer .sub-section {
+  margin: 2em;
+}
+
+.footer .sub-section p {
+  margin: 5px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.footer .sub-section .social {
+  margin-top: 0;
+}
+
+.footer .sub-section .social a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 0px 10px;
+/*  -webkit-transition: all .4s ease;*/
+/*  transition: all .4s ease;*/
+}
+
+.footer .sub-section .social a:hover {
+  color: #22ee44;
+}
+
+.trademark {
+  background-color: black;
+  margin: 30px;
+  padding: .6em 3em;
+  color: white;
+  margin: auto 0 0;
+}
+
+.trademark p {
+  display: inline-block;
+}
+
+
+
+
+
+/********************************************************/

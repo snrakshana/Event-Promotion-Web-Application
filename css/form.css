@@ -1,0 +1,44 @@
+form table{
+	background-color:rgb(155, 199, 154);
+	padding:15px;
+	display:inline-block;
+	border: 1px insert #0A6A09;
+	border-radius:20px;
+	font-family:Arial;
+	font-weight:bold;
+	color:#0A6A09;
+}
+form td{
+	padding:10px;
+}
+form th{
+	text-align:center;
+}
+form input[type=button],input[type=submit],input[type=reset]{
+	padding:10px;
+	margin-left:20px;
+	margin-right:20px;
+	font-weight:bold;
+	background-color:#0A6A09;
+	color:#ffffff;
+	border: none;
+	border-radius:5px;
+	font-size:15px;
+}
+form input[type=text],input[type=password],select,input[type=date],textarea {
+  border: none;
+  border-bottom: 2px solid #0A6A09;
+  background-color:#rgb(155, 199, 154);
+  border-radius:5px;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:5px;
+}
+form input[type=button]:hover,input[type=submit]:hover,input[type=reset]:hover{
+	background-color:#ffffff;
+	color:#0A6A09;
+	font-size:16px;
+	border: none;
+	border-radius:5px;
+}

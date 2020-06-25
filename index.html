@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/mainStyle.css">
+		<style type="text/css">
+			div.img{
+				margin:10px;
+				border:2px insert #0A6A09;
+				background-color:rgb(155, 199, 154);
+				opacity:0.85;
+				height:270px;
+				width:270px;
+				float:left;
+			}
+			div.img img{
+				display:inline;
+				height:70%;
+				width:97%;
+				margin:3px;
+				opacity:0.9;
+				border:1px solid #8888AA;
+				border-radius:40px;
+			}
+			
+			div.img a:hover img{
+				border:3px solid #0A6A09;
+				opacity:1;
+			}
+			div.desc{
+				text-align:center;
+				font-weight:bold;
+				font-family:Arial;
+				padding:15px;
+				margin:2px;
+				color:#0A6A09;
+			}
+			h2{
+				color:#ffffff;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div class="header">
+			<span class="logo"><img src="images/Logo_1.png" alt="Logo_1.png"></span>
+			<a href="registerLogin.php?state=register"><button>Register</button></a>
+			<a href="registerLogin.php?state=login"><button>Login</button></a>
+			<p>Want to publish your own event?</p>
+		</div>
+		
+		<hr>
+		
+		<div class="navbar">
+			<ul>
+				<li><a href="homePage.html">Home</a></li>
+				<li><a href="searchEvent.php">Search Event</a></li>
+				<li><a href="about.html">About</a></li>
+			</ul>
+		</div>
+		
+		<div class="body">
+			<h2>Find out events that you might enjoy!</h2>
+			
+			<div class="img">
+				<a href="searchEvent.php?eventType=Concerts, Musical shows"><img src="images/concert.jpg" alt="concert"></a>
+				<div class="desc">Concerts, Musical shows</div>
+			</div>
+			
+			<div class="img">
+				<a href="searchEvent.php?eventType=Art and Drama"><img src="images/art.jpg" alt="art"></a>
+				<div class="desc">Art and Drama</div>
+			</div>
+			
+			<div class="img">
+				<a href="searchEvent.php?eventType=Food and Drink Carnivals"><img src="images/carnival.jpg" alt="carnival"></a>
+				<div class="desc">Food and Drink Carnivals</div>
+			</div>
+			
+			<div class="img">
+				<a href="searchEvent.php?eventType=Technology Sessions"><img src="images/tech.jpg" alt="tech"></a>
+				<div class="desc">Technology Sessions</div>
+			</div>
+			
+			<div class="img">
+				<a href="searchEvent.php?eventType=Exhibitions"><img src="images/exhibition.jpg" alt="exhibition"></a>
+				<div class="desc">Exhibitions</div>
+			</div>
+			
+			<div class="img">
+				<a href="searchEvent.php?eventType=Workshops"><img src="images/workshop.jpg" alt="workshop"></a>
+				<div class="desc">Workshops</div>
+			</div>
+			
+			<div class="img">
+				<a href="searchEvent.php?eventType=Health Camps"><img src="images/healthcamp.jpg" alt="health"></a>
+				<div class="desc">Health Camps</div>
+			</div>
+			
+			<div class="img">
+				<a href="searchEvent.php?eventType=Fashion Shows"><img src="images/fashionshow.jpg" alt="fashion"></a>
+				<div class="desc">Fashion Shows</div>
+			</div>
+		</div>
+	</body>
+</html>
